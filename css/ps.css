@@ -1,0 +1,23 @@
+﻿.jumbotron {
+    background-color: #CAD1D0;
+    margin-bottom: 0px;
+    border-radius:0px;
+    margin-top:6px;
+}
+
+H1 {
+    margin-bottom: 0px;
+}
+
+.bl-bs-jumbotron-title {
+    font-family: 'Fanwood Text', serif;
+}
+
+.bl-bs-jumbotron {
+    color: white;
+}
+        
+body
+{
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
