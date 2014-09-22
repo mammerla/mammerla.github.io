@@ -64,7 +64,10 @@ PS.GithubEventDisplay.prototype = {
             BL.UI.ElementUtilities.setText(this.e_project, this._githubEvent$2.repo.name);
         }
         if (this.e_description != null) {
-            if (this._githubEvent$2.payload.commits != null && this._githubEvent$2.payload.commits.length > 0) {
+            if (this._githubEvent$2.payload.description != null) {
+                BL.UI.ElementUtilities.setText(this.e_description, this._githubEvent$2.payload.description);
+            }
+            else if (this._githubEvent$2.payload.commits != null && this._githubEvent$2.payload.commits.length > 0) {
                 BL.UI.ElementUtilities.setText(this.e_description, this._githubEvent$2.payload.commits[0].message);
             }
         }

@@ -104,7 +104,11 @@ namespace PS
 
             if (this.description != null)
             {
-                if (this.githubEvent.Payload.Commits != null && this.githubEvent.Payload.Commits.Length > 0)
+                if (this.githubEvent.Payload.Description != null)
+                {
+                    ElementUtilities.SetText(this.description, this.githubEvent.Payload.Description);
+                }
+                else if (this.githubEvent.Payload.Commits != null && this.githubEvent.Payload.Commits.Length > 0)
                 {
                     ElementUtilities.SetText(this.description, this.githubEvent.Payload.Commits[0].Message);
                 }

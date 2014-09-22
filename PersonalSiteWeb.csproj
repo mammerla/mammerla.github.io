@@ -58,6 +58,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\ps.css" />
+    <Content Include="gs\Personal\dbg\bl.bs.debug.js" />
+    <Content Include="gs\Personal\dbg\bl.bs.dll" />
+    <Content Include="gs\Personal\dbg\bl.bs.js" />
+    <Content Include="gs\Personal\dbg\bl.bs.pdb" />
+    <Content Include="gs\Personal\dbg\bl.debug.js" />
+    <Content Include="gs\Personal\dbg\bl.dll" />
+    <Content Include="gs\Personal\dbg\bl.js" />
+    <Content Include="gs\Personal\dbg\bl.site.debug.js" />
+    <Content Include="gs\Personal\dbg\bl.site.dll" />
+    <Content Include="gs\Personal\dbg\bl.site.js" />
+    <Content Include="gs\Personal\dbg\bl.site.pdb" />
+    <Content Include="gs\Personal\dbg\bl.ui.debug.js" />
+    <Content Include="gs\Personal\dbg\bl.ui.dll" />
+    <Content Include="gs\Personal\dbg\bl.ui.js" />
+    <Content Include="gs\Personal\dbg\bl.xml" />
+    <Content Include="gs\Personal\dbg\mscorlib.debug.js" />
+    <Content Include="gs\Personal\dbg\mscorlib.dll" />
+    <Content Include="gs\Personal\dbg\mscorlib.js" />
+    <Content Include="gs\Personal\dbg\mscorlib.xml" />
+    <Content Include="gs\Personal\dbg\PS.debug.js" />
+    <Content Include="gs\Personal\dbg\PS.dll" />
+    <Content Include="gs\Personal\dbg\PS.js" />
+    <Content Include="gs\Personal\dbg\PS.pdb" />
+    <Content Include="gs\t\PS.t.css" />
+    <Content Include="gs\t\PS.t.js" />
     <Content Include="index.html" />
     <Content Include="lib\facer\facersite.css" />
     <Content Include="lib\facer\facersite.js" />
@@ -77,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gs\t\PS.t.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

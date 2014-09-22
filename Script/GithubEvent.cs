@@ -16,6 +16,7 @@ namespace PS
     {
         public String Id;
         public String Type;
+        public String Description;
 
         [ScriptName("public")]
         public bool IsPublic;

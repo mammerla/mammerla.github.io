@@ -49,18 +49,16 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="bl">
-      <HintPath>..\..\Facer\Build\release\scriptsharpdlls\bl.dll</HintPath>
+      <HintPath>..\..\Facer\Build\Facer\scriptsharpdlls\bl.dll</HintPath>
     </Reference>
-    <Reference Include="bl.bs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Facer\Build\release\scriptsharpdlls\bl.bs.dll</HintPath>
+    <Reference Include="bl.bs">
+      <HintPath>..\..\Facer\Build\Facer\scriptsharpdlls\bl.bs.dll</HintPath>
     </Reference>
-    <Reference Include="bl.site, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Facer\Build\release\scriptsharpdlls\bl.site.dll</HintPath>
+    <Reference Include="bl.site">
+      <HintPath>..\..\Facer\Build\Facer\scriptsharpdlls\bl.site.dll</HintPath>
     </Reference>
     <Reference Include="bl.ui">
-      <HintPath>..\..\Facer\Build\release\scriptsharpdlls\bl.ui.dll</HintPath>
+      <HintPath>..\..\Facer\Build\Facer\scriptsharpdlls\bl.ui.dll</HintPath>
     </Reference>
     <Reference Include="Script.jQuery">
       <HintPath>..\..\packages\ScriptSharp.Lib.jQuery.0.7.5.0\lib\Script.jQuery.dll</HintPath>

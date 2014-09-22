@@ -17,6 +17,8 @@ namespace PS
         public String PushId;
         public int Size;
         public int DistinctSize;
+
+        public String Description;
         public GithubCommit[] Commits;
     }
 }
