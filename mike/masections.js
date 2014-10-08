@@ -1,6 +1,13 @@
 ﻿[{
     "items": [
         {
+            "id": "qa",
+            "title": "Qualla",
+            "url": "https://qualla.com",
+            "content": "Qualla helps you coordinate anything by providing easy to use surveys, signups, and more.",
+            "mainImage": "/mike/images/qlalogo.png"
+        },
+        {
             "id": "ph",
             "title": "Presentation Hero",
             "url": "http://www.prezhero.com",
@@ -11,7 +18,6 @@
             "id": "facer",
             "title": "Facer framework",
             "url": "https://www.github.com/bendyline/facer",
-            "templateId": "bl-site-rightimage",
             "content": "Yet another JavaScript/web framework, so take it for what it's worth.  Built on Script Sharp, this framework supports a control framework, data binding, and app templates.",
             "mainImage": "/mike/images/facerlogo148.png"
         }
