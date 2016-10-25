@@ -7,10 +7,11 @@
 
 H1 {
     margin-bottom: 0px;
+    font-family: 'Cardo', serif;
 }
 
 .bl-bs-jumbotron-title {
-    font-family: 'Fanwood Text', serif;
+    font-family: 'Cardo', serif;
 }
 
 .bl-bs-jumbotron {
@@ -20,4 +21,14 @@ H1 {
 body
 {
     font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+}
+
+.bl-site-twittertimeline
+{
+    padding-top:20px;
+}
+
+.ps-app-aboutRow
+{
+    font-size:medium;
 }
